@@ -1,5 +1,3 @@
-import React from 'react';
-
 const projects = [
   {
     id: 1,
@@ -34,7 +32,7 @@ const projects = [
   }
 ];
 
-const Projects: React.FC = () => {
+const Projects = () => {
   return (
     <section className="py-16">
       <div className="mb-16">

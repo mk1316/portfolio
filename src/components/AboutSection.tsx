@@ -1,6 +1,4 @@
-import React from 'react';
-
-const About: React.FC = () => {
+const About = () => {
   return (
     <section className="py-16">
       <div className="max-w-3xl">

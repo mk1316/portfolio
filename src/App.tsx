@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import SiteNavigation from './components/SiteNavigation';
 import AboutSection from './components/AboutSection';
 import WorkExperience from './components/WorkExperience';

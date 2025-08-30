@@ -1,5 +1,3 @@
-import React from 'react';
-
 const experience = [
   {
     id: 1,
@@ -40,7 +38,7 @@ const experience = [
   }
 ];
 
-const Experience: React.FC = () => {
+const Experience = () => {
   return (
     <section className="py-16">
       <div className="mb-16">

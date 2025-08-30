@@ -1,5 +1,3 @@
-import React from 'react';
-
 type Section = 'about' | 'experience' | 'projects';
 
 interface NavigationProps {
@@ -7,7 +5,7 @@ interface NavigationProps {
   onSectionChange: (section: Section) => void;
 }
 
-const Navigation: React.FC<NavigationProps> = ({ currentSection, onSectionChange }) => {
+const Navigation = ({ currentSection, onSectionChange }: NavigationProps) => {
   const sections = [
     { id: 'about' as Section, label: 'About' },
     { id: 'experience' as Section, label: 'Experience' },

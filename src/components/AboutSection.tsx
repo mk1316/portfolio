@@ -1,8 +1,8 @@
 const About = () => {
   return (
-    <section className="py-16">
+    <section className="py-4 sm:py-8">
       <div className="max-w-3xl">
-        <h2 className="text-lg font-mono text-gray-900 mb-8">About</h2>
+        <h2 className="text-lg font-mono text-gray-900 mb-4 sm:mb-8">About</h2>
         
         <p className="text-sm text-gray-700 leading-relaxed mb-4">
           I'm Kaleb, a software engineer whose love for technology started with robots in high school. I was hooked on the moment code made metal move. That curiosity grew into a drive to build things that solve real problems for real people.

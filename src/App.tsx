@@ -29,14 +29,14 @@ function App() {
         currentSection={currentSection} 
         onSectionChange={setCurrentSection} 
       />
-      <main className="max-w-4xl px-8 py-12 flex-1">
+      <main className="max-w-4xl px-4 sm:px-8 py-2 sm:py-4 flex-1">
         {renderCurrentSection()}
       </main>
       
       {/* Fixed Contact Information */}
       <footer className="bg-gray-50 mt-auto">
-        <div className="max-w-4xl px-8 py-6">
-          <div className="flex flex-wrap gap-8 text-xs">
+        <div className="max-w-4xl px-4 sm:px-8 py-4 sm:py-6">
+          <div className="flex flex-wrap gap-4 sm:gap-8 text-xs">
             <div className="flex items-center space-x-2">
               <Mail className="w-4 h-4 text-gray-500" />
               <a href="mailto:tsegkaleb@gmail.com" className="text-blue-600 hover:underline">

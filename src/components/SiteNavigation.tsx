@@ -14,15 +14,13 @@ const Navigation = ({ currentSection, onSectionChange }: NavigationProps) => {
 
   return (
     <nav className="bg-white sticky top-0 z-50">
-      <div className="max-w-4xl px-6 py-4">
-        <div className="flex justify-between items-center">
+      <div className="max-w-4xl px-4 sm:px-6 py-3 sm:py-4">
+        <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center space-y-3 sm:space-y-0">
           <div className="text-2xl font-serif text-gray-900">
-          <div className="text-xl font-serif text-gray-900">
             Kaleb Tsegaye
           </div>
-          </div>
           
-          <div className="flex space-x-8">
+          <div className="flex space-x-4 sm:space-x-8">
             {sections.map((section) => (
               <button
                 key={section.id}

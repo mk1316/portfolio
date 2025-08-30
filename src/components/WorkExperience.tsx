@@ -40,13 +40,13 @@ const experience = [
 
 const Experience = () => {
   return (
-    <section className="py-16">
-      <div className="mb-16">
-        <h2 className="text-lg font-mono text-gray-900 mb-8">Experience</h2>
+    <section className="py-4 sm:py-8">
+      <div className="mb-8">
+        <h2 className="text-lg font-mono text-gray-900 mb-4 sm:mb-8">Experience</h2>
         
-        <div className="space-y-8">
+        <div className="space-y-4 sm:space-y-8">
           {experience.map((job) => (
-            <article key={job.id} className="bg-white py-4">
+            <article key={job.id} className="bg-white py-3 sm:py-4">
               <div className="flex items-start justify-between mb-2">
                 <div className="flex-1">
                   <h3 className="text-base font-medium text-gray-900 leading-tight">
